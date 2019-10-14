@@ -1,0 +1,41 @@
+Executive Summary
+We are a startup company developing staff management website HRcore. Since our system is designed for large-scope of companies, the types of users are not limited during our development. And the system should be easy to use with high efficiency to avoid user complaining. Thus, high learnability and good efficiency have become our main quality attributes. In this report, we provide a plan to ensure the high quality of our software by going through organization level and project level development process.
+
+Quality Plan
+Learnability
+Learnability is defined as the capability of a product to enable the user to learn how to use it. In UX (User Experience) design learnability is a key usability feature that is often disregarded. Since our system is designed for multi types of users, it’s necessary to make our website to have better user experience by following UX design principles which are visibility, feedback, constraints, consistency and affordances.
+Visibility
+Functions are visible showing what to do next. For our website designing, every field (such as image and button) containing functionality need to be explained with symbol or text instruction for user understanding.
+Feedback
+Sending information back to the user about what has been done (or what is going on). It includes sound, highlighting, animation and combinations of these. To notice our user when each button or interaction feature is successfully triggered, we need to provide feedback in sound, animation or popup window as shown below (Window was popped up when “ADD TO CART” is clicked):
+
+
+Constraints
+Restricting the possible actions that can be performed. In our system, we will restrict users from clicking buttons for logged in users when they are not logged in yet. Such as make those button texts become dim thus, they will know those buttons are not clickable.
+
+Consistency 
+Design interfaces to have similar operations and use similar elements for similar tasks. To make the interface become easier to learn and use, those buttons linked to similar web pages will be designed similar and in close spot in the web interface for consistent looking. For example, meeting system should contain all possible buttons about meeting but not employee scheduling functionalities. 
+Affordances
+Refers to an attribute of an object that allows people to know how to use it. This attribute is important for any of our system functionalities that contain scheduling system, because scheduling system is the main feature for our website. Our system will provide a graphical user interface which is similar to real calendar for user understanding. On the calendar, our users are able to view, modify notes and make leaving request by navigating the interface.
+Efficiency 
+Efficiency is a measure of how well a website does what it should do. Assuming that the utility and effectiveness goal are fulfilled, efficiency is the next usability goal to take into consideration.
+Jakob Nielsen has shown through eye-tracking studies that people have a tendency to scan web pages in an F-shaped pattern, starting by looking at the top navigation and text, moving down, and scanning again like so (Nielsen, 1999):
+ 
+The result above shows the user mostly focus on the top left of the website, thus our main functionalities will be designed into that field. Since The average user only reads about 28% of a web page (Richard, 2012), it’s important for us to keep content on our site efficiently. We shall keep the text short and to the point.
+
+
+Organization & project level development
+At the organizational level, our developers will have weekly meeting to ensure the development is going the correct direction and team members will exchange codes for checking. Any issues and bugs will be talked and solved during the meeting. 
+At the project level, we will work closely with our end user at each iteration to ensure the software meets users’ requirements, meanwhile, new requirement and feedback will be gathered and implemented. By keeping in touch with our end users, we will be able to test, get feedback and go to next iteration with high efficiency.
+
+Metrics Analysis
+To fulfill the customer satisfaction, we will have several product quality metrics which will have defect density, length of identifiers, fog index. Defect density can be conquered by performing code review and various testing’s. Moreover, to find the number per lines of codes we will use lines of code metric. For counting, we count only executable lines plus data definitions. If we are getting less than five bugs per a thousand lines of code, then the quality of our software is really good. We will compare the new release with the previous ones to check the line of code defect rate has been reduced or not. If the defect rate is going down, the quality of the software is improved. However, there will be various testing and we will also count the function points. A function is a collection of executables that perform a certain task. Counting defects per function points, If the result is low, then the software should have a better quality even though the defects per line of code value could be higher if the functions only have a few lines of code. Using function points along with the line of code metrics can give us a precise measurement of the quality of our product. We will keep the documentation of our project at low fog index value, which means we will use most meaningful and clear words to make our documentation short and highly understandable.
+
+
+Conclusion
+In conclusion, product which is being offered to the customers should be well maintained, reliable, portable and of high quality. To execute the quality plan, metrics such as defect density, length of identifiers, and fog index are used during quality measurement to help in controlling the quality of the product. By applying all of the methods, our customers can expect professionalism in company’s products.  
+
+Reference
+Parr, Richard (2012, December 6,) Is your website efficient and user-friendly? Retrieved from URL: https://www.executionists.com/is-your-website-efficient-and-user-friendly/
+
+Nielsen, J. (1999). Designing web usability: The practice of simplicity. 
